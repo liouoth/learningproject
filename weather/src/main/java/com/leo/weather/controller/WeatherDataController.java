@@ -25,6 +25,7 @@ public class WeatherDataController {
         map.put("cityCode", cityCode);
         map.put("weatherRes",weatherDataService.getWeatherDataByCityCode(cityCode));
         map.put("cityList", cityDataService.listCity());
+        System.out.println(weatherDataService.getWeatherDataByCityCode(cityCode));
         return new ModelAndView("report", map);
     }
 

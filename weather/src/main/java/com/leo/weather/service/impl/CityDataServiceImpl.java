@@ -14,7 +14,7 @@ public class CityDataServiceImpl implements CityDataService {
     public List<City> listCity() {
         List<City> list = null;
         try {
-            list = JsonUtils.jsonFileToObjectList("E:\\localspace\\weather\\src\\main\\resources\\cityZ.json", City.class);
+            list = JsonUtils.jsonFileToObjectList("/Users/maowenqing/workspace/git/learningproject/weather/out/production/resources/cityZ.json", City.class);
         } catch (IOException e) {
             e.printStackTrace();
         }

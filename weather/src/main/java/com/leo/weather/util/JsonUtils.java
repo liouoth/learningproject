@@ -34,7 +34,7 @@ public class JsonUtils {
     //test: 读取json 传入对应类型
     public static void main(String[] args) {
         try {
-            List<City> list = jsonFileToObjectList("E:\\localspace\\weather\\src\\main\\resources\\cityZ.json",City.class);
+            List<City> list = jsonFileToObjectList("cityZ.json",City.class);
             list.stream().forEach(e -> {
                 System.out.println(e.toString());
             });
