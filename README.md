@@ -3,7 +3,7 @@ learning with some project
 
 ## weather
 build the project to learn more about micro service
-build:
+env: 
   1. jdk 1.8
   2. springboot
   3. gradle
