@@ -1,7 +1,7 @@
 # learningproject
 learning with some project
 
-##weather
+## weather
 build the project to learn more about micro service
 build:
   1.jdk 1.8
